@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Modal, Button, Form, Row, Col } from 'react-bootstrap';
 import { connect } from 'react-redux';
-import { fetchEmployees } from './actions'; // Import action creators
+import { fetchEmployees } from '../redux/actions/actions'; // Import action creators
 
 function Home() {
   const [employees, setEmployees] = useState([]);
@@ -10,7 +10,6 @@ function Home() {
   const [isEditing, setIsEditing] = useState(false);
   const [editId, setEditId] = useState(null);
   const [showModal, setShowModal] = useState(false);
-
 
 
   useEffect(() => {

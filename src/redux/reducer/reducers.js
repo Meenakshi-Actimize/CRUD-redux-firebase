@@ -1,4 +1,4 @@
-import { FETCH_EMPLOYEES, ADD_EMPLOYEE, UPDATE_EMPLOYEE, DELETE_EMPLOYEE } from './types';
+import { FETCH_EMPLOYEES, ADD_EMPLOYEE, UPDATE_EMPLOYEE, DELETE_EMPLOYEE } from '../apis/apis';
 
 // Initial state
 const initialState = {

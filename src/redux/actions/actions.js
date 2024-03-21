@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { FETCH_EMPLOYEES, ADD_EMPLOYEE, UPDATE_EMPLOYEE, DELETE_EMPLOYEE } from '../redux/types';
+import { FETCH_EMPLOYEES, ADD_EMPLOYEE, UPDATE_EMPLOYEE,DELETE_EMPLOYEE } from '../apis/apis';
 
 // Action creators
 export const fetchEmployees = () => async (dispatch) => {
